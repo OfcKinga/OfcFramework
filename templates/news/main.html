@@ -1,0 +1,14 @@
+﻿<h1>Это News</h1>
+<hr>
+Здесь будет список новостей!
+
+	<h1>{{ app.settings.project_name }}</h1>
+	<h2>Количество новостей на сайте: {{ apps.news.count }}</h2>
+
+<ul>
+	<li><a href="{{ url({app: 'news', alias: 'aread', id: 104}) }}">Новость #1</a></li>
+	<li><a href="{{ url({app: 'news', alias: 'aread', id: 105}) }}">Новость #2</a></li>
+	<li><a href="{{ url({app: 'news', alias: 'aread', id: 106}) }}">Новость #3</a></li>
+	<li><a href="{{ url({app: 'news', alias: 'aread', id: 107}) }}">Новость #4</a></li>
+	<li><a href="{{ url({app: 'news', alias: 'aread', id: 108}) }}">Новость #5</a></li>
+</ul>
